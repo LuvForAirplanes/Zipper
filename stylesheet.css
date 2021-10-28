@@ -1,0 +1,45 @@
+/* BING STYLES */
+.b_mop,
+.b_FBleedModule,
+.ns_cnt,
+/* Remove Movies */
+.ent_gb_mmv,
+/* Remove Bing Answers section - often has news */
+.b_ans,
+/* Image and video links on the search page */
+#b-scopeListItem-images,
+#b-scopeListItem-video,
+#b-scopeListItem-news,
+/* Image and video links on the Bing homepage */
+#images.scope,
+#video.scope,
+#video.overflow_item,
+#news.overflow_item,
+#msn.overflow_item,
+/* news content on home page */
+.vs_cont,
+/* search by image */
+#sbiarea,
+/* Remove trending suggestions from search */
+[aria-label~=Trending],
+.sa_hd,
+/* GOOGLE STYLES */
+/* Images linkn on home page */
+.sa_hd,
+/* media results */
+#media_result_group,
+.ULSxyf,
+/* search options at the top of the page */
+.hdtb-mitem:first-of-type + .hdtb-mitem + .hdtb-mitem + .hdtb-mitem + .hdtb-mitem,
+.hdtb-mitem:first-of-type + .hdtb-mitem + .hdtb-mitem + .hdtb-mitem,
+.hdtb-mitem:first-of-type + .hdtb-mitem + .hdtb-mitem,
+.hdtb-mitem:first-of-type + .hdtb-mitem,
+/* AMAZON GLOBAL STLES */
+/* Hide sidebar ads */
+[data-component-type="s-ads-metrics"],
+/* Hide in page ads */
+.sbv-video,
+/* hide Prime Video at the top */
+[href~=Amazon-Video] {
+        display: none !important;
+}

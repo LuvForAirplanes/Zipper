@@ -1,0 +1,19 @@
+{
+  "name": "YouClickedMe",
+  "description": "Extension to turn links red when clicked in legacy applications.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "page_action": {},
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["scripts.js"],
+      "run_at": "document_end"
+   }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
